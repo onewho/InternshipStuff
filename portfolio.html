@@ -1,0 +1,388 @@
+<!doctype html>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+<meta name="robots" content="index, follow" />
+<meta name="keywords" content="" />
+<meta name="title" content="" />
+<meta name="description" content="" />
+<link rel="shortcut icon" href="images/misc/favicon.png" />
+<title>Mixer - Fully Responsive</title>
+
+<!--[if lte IE 9]>
+<link rel="stylesheet" href="css/ie.css" type="text/css" media="screen" />
+<![endif]-->
+
+<link rel="stylesheet" href="css/responsive.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="css/styles.css" type="text/css" media="screen" />
+
+<!--Enables queries and HTML5/CSS3 in some unsupported browsers-->
+<script src="js/modernizr.custom.js"></script>
+<script src="js/css3-mediaqueries.js"></script>
+</head>
+<body>
+
+<!--Top Stripe-->
+<div class="container top-stripe">
+  <div class="row"> 
+    
+    <!--Notification-->
+    <div class="sixcol">
+      <div class="notification">
+        <p>Welcome to Mixer HTML/CSS theme, be free to browse all features it have!</p>
+      </div>
+    </div>
+    
+    <!--Social Six Columns-->
+    <div class="sixcol last">
+      <div class="social"> <a href="#" class="facebook">Facebook</a> <a href="#" class="linkedin">Liknkedin</a> <a href="#" class="twitter">Twitter</a> <a href="#" class="vimeo">Vimeo</a> <a href="#" class="rss">Rss</a> </div>
+    </div>
+  </div>
+</div>
+
+<!--Header-->
+<div class="container header">
+  <div class="row"> 
+    
+    <!--Logo-->
+    <div class="twocol">
+      <div class="logo"> <a href="index.html"><img src="images/misc/logo.jpg" title="Mixer" alt="Mixer" /></a> </div>
+    </div>
+    
+    <!--Responsive Navigation-->
+    <div class="twelvecol responsive-menu">
+      <div class="row">
+        <select>
+          <option selected="selected" value="#">Navigation...</option>
+          <option value="index.html">Home</option>
+          <option value="">Options +</option>
+          <option value="grid.html">- Grid</option>
+          <option value="typo.html">- Typography</option>
+          <option value="elements.html">- Elements</option>
+          <option value="icons.html">- Icons</option>
+          <option value="">- Bonus pages +</option>
+          <option value="blog_single.html">- - Bog Single</option>
+          <option value="404.html">- - 404</option>
+          <option value="about.html">About</option>
+          <option value="services.html">Services</option>
+          <option value="portfolio.html">Portfolio</option>
+          <option value="blog.html">Blog</option>
+          <option value="contact.html">Contact</option>
+        </select>
+      </div>
+    </div>
+    
+    <!--Navigation-->
+    <div class="tencol last">
+      <ul class="main-nav">
+        
+        <!--Home-->
+        <li> <a href="index.html"> <span class="nav-icon glyph">q</span> <span class="nav-title">Home</span> <span class="nav-descript">Where all starts</span> </a> </li>
+        
+        <!--Options-->
+        <li> <a href="#"> <span class="nav-icon glyph">k</span> <span class="nav-title">Options +</span> <span class="nav-descript">Inside mixer</span> </a>
+         <!-- <ul class="sub-hide">
+          <li><a href="grid.html">grid</a></li>
+            <li><a href="typo.html">typography</a></li>
+            <li><a href="elements.html">elements</a></li>
+            <li><a href="icons.html">icons</a></li>
+            <li><a href="#">bonus pages + </a>
+              <ul class="sub-sub-hide">
+                <li><a href="blog_single.html">Blog single</a></li>
+                <li><a href="404.html">404</a></li>
+              </ul>
+            </li>
+          </ul>-->
+        </li>
+        
+        <!--About-->
+        <li> <a href="about.html"> <span class="nav-icon glyph">o</span> <span class="nav-title">About</span> <span class="nav-descript">Small company</span> </a> </li>
+        
+        <!--Services-->
+        <li> <a href="services.html"> <span class="nav-icon glyph">a</span> <span class="nav-title">Services</span> <span class="nav-descript">Affordable offers</span> </a> </li>
+        
+        <!--Portfolio-->
+        <li> <a href="portfolio.html" class="active"> <span class="nav-icon glyph">,</span> <span class="nav-title">Portfolio</span> <span class="nav-descript">Work showcase</span> </a> </li>
+        
+        <!--Blog-->
+        <li> <a href="blog.html"> <span class="nav-icon glyph">i</span> <span class="nav-title">Blog</span> <span class="nav-descript">Our latest news</span> </a> </li>
+        
+        <!--Contact-->
+        <li> <a href="contact.html"> <span class="nav-icon glyph">r</span> <span class="nav-title">Contact</span> <span class="nav-descript">Available 24/7/365</span> </a> </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<!--Page Title & Breadcrumbs-->
+<div class="container title-breadcrumbs">
+  <div class="row">
+    <div class="sixcol page-title">
+      <h1>Our <span>portfolio</span></h1>
+    </div>
+    <div class="sixcol last breadcrumbs">
+      <ul>
+        <li><a href="index.html">home</a></li>
+        <li> / </li>
+        <li><a href="portfolio.html" class="current">portfolio</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<!--Our Portfolio-->
+<div class="container inner" id="container">
+  <div class="row">
+    <div class="twelvecol gallery"> 
+      
+      <!--1-->
+      <div class="threecol home-portfolio" class="item">
+          <div class="image-holder"><span class="portfolio-category">this is a great image isn't?</span> <img src="images/portfolio/1_portfolio.jpg" title="" alt="" />
+            <div class="portfolio-content">
+              <div class="portfolio-wrap">
+                <a href="images/home/1_pretty_photo.jpg" rel="prettyPhoto">=</a> <a href="blog.html">'</a> </div>
+            </div>
+        </div>
+      </div>
+      
+      <!--2-->
+      <div class="threecol home-portfolio" class="item">
+          <div class="image-holder">  <span class="portfolio-category">this is a great image isn't?</span> <img src="images/portfolio/2_portfolio.jpg" title="" alt="" />
+            <div class="portfolio-content">
+              <div class="portfolio-wrap">
+                <a href="images/home/1_pretty_photo.jpg" rel="prettyPhoto">=</a> <a href="blog.html">'</a> </div>
+            </div>
+        </div>
+      </div>
+      
+      <!--3-->
+      <div class="threecol home-portfolio" class="item">
+          <div class="image-holder">  <span class="portfolio-category">this is a great image isn't?</span> <img src="images/portfolio/3_portfolio.jpg" title="" alt="" />
+            <div class="portfolio-content">
+              <div class="portfolio-wrap">
+                <a href="images/home/1_pretty_photo.jpg" rel="prettyPhoto">=</a> <a href="blog.html">'</a> </div>
+            </div>
+        </div>
+      </div>
+      
+      <!--4-->
+      <div class="threecol last home-portfolio" class="item">
+          <div class="image-holder"> <span class="portfolio-category">this is a great image isn't?</span> <img src="images/portfolio/4_portfolio.jpg" title="" alt="" />
+            <div class="portfolio-content">
+              <div class="portfolio-wrap">
+                <a href="images/home/1_pretty_photo.jpg" rel="prettyPhoto">=</a> <a href="blog.html">'</a> </div>
+            </div>
+        </div>
+      </div>
+    </div>
+    <div class="twelvecol gallery"> 
+      
+      <!--1-->
+      <div class="threecol home-portfolio" class="item">
+          <div class="image-holder"> <span class="portfolio-category">this is a great image isn't?</span> <img src="images/portfolio/5_portfolio.jpg" title="" alt="" />
+            <div class="portfolio-content">
+              <div class="portfolio-wrap">
+                <a href="images/home/1_pretty_photo.jpg" rel="prettyPhoto">=</a> <a href="blog.html">'</a> </div>
+            </div>
+          </div>
+        </div>
+      
+      <!--2-->
+      <div class="threecol home-portfolio" class="item">
+          <div class="image-holder"> <span class="portfolio-category">this is a great image isn't?</span> <img src="images/portfolio/6_portfolio.jpg" title="" alt="" />
+            <div class="portfolio-content">
+              <div class="portfolio-wrap">
+                <a href="images/home/1_pretty_photo.jpg" rel="prettyPhoto">=</a> <a href="blog.html">'</a> </div>
+            </div>
+        </div>
+      </div>
+      
+      <!--3-->
+      <div class="threecol home-portfolio" class="item">
+          <div class="image-holder"><span class="portfolio-category">this is a great image isn't?</span> <img src="images/portfolio/7_portfolio.jpg" title="" alt="" />
+            <div class="portfolio-content">
+              <div class="portfolio-wrap">
+                <a href="images/home/1_pretty_photo.jpg" rel="prettyPhoto">=</a> <a href="blog.html">'</a> </div>
+            </div>
+          </div>
+        </div>
+      
+      <!--4-->
+      <div class="threecol last home-portfolio" class="item">
+          <div class="image-holder"> <span class="portfolio-category">this is a great image isn't?</span> <img src="images/portfolio/8_portfolio.jpg" title="" alt="" />
+            <div class="portfolio-content">
+              <div class="portfolio-wrap">
+                <a href="images/home/1_pretty_photo.jpg" rel="prettyPhoto">=</a> <a href="blog.html">'</a> </div>
+            </div>
+          </div>
+      </div>
+    </div>
+    <div class="twelvecol gallery"> 
+      
+      <!--1-->
+      <div class="threecol home-portfolio" class="item">
+          <div class="image-holder"> <span class="portfolio-category">this is a great image isn't?</span> <img src="images/portfolio/9_portfolio.jpg" title="" alt="" />
+            <div class="portfolio-content">
+              <div class="portfolio-wrap">
+                <a href="images/home/1_pretty_photo.jpg" rel="prettyPhoto">=</a> <a href="blog.html">'</a> </div>
+            </div>
+        </div>
+      </div>
+      
+      <!--2-->
+      <div class="threecol home-portfolio" class="item">
+          <div class="image-holder"> <span class="portfolio-category">this is a great image isn't?</span> <img src="images/portfolio/10_portfolio.jpg" title="" alt="" />
+            <div class="portfolio-content">
+              <div class="portfolio-wrap">
+                <a href="images/home/1_pretty_photo.jpg" rel="prettyPhoto">=</a> <a href="blog.html">'</a> </div>
+            </div>
+        </div>
+      </div>
+      
+      <!--3-->
+      <div class="threecol home-portfolio">
+      <div class="item">
+          <div class="image-holder"> <span class="portfolio-category">this is a great image isn't?</span> <img src="images/portfolio/11_portfolio.jpg" title="" alt="" />
+            <div class="portfolio-content">
+              <div class="portfolio-wrap">
+                <a href="images/home/1_pretty_photo.jpg" rel="prettyPhoto">=</a> <a href="blog.html">'</a> </div>
+            </div>
+        </div>
+      </div>
+      </div>
+      
+      <!--4-->
+      <div class="threecol last home-portfolio other">
+      <div class="item">
+          <div class="image-holder"> <span class="portfolio-category">this is a great image isn't?</span> <img src="images/portfolio/12_portfolio.jpg" title="" alt="" />
+            <div class="portfolio-content">
+              <div class="portfolio-wrap">
+                <a href="images/home/1_pretty_photo.jpg" rel="prettyPhoto">=</a> <a href="blog.html">'</a> </div>
+          </div>
+        </div>
+	</div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+<!--Footer Top-->
+<div class="container footer-top">
+  <div class="row"> 
+    
+    <!--Newsletter-->
+    <div class="threecol newsletter">
+      <div class="title">
+        <h5>stay in touch</h5>
+      </div>
+      <div class="newsletter-form">
+        <div class="success panel"></div>
+        <!--Hidden SUccess Message-->
+        <form class="newsletter" method="post" action="#">
+          <fieldset>
+            <input type="text" class="require email" name="email" value="Your email...">
+            <a class="button default submit" name="submit">Sign Up</a>
+          </fieldset>
+        </form>
+        <p>* We do not share your email to third party</p>
+      </div>
+    </div>
+    
+    <!--Tweets-->
+    <div class="threecol">
+      <div class="title">
+        <h5>latest tweets</h5>
+      </div>
+      <div class="tweet"> </div>
+    </div>
+    
+    <!--About Us-->
+    <div class="threecol">
+      <div class="title">
+        <h5>about us</h5>
+      </div>
+      <div class="about">
+        <p>Mixer Company opened its doors to the public on the <a class="tip" rel="tipsy" title="Yes that was really important date for mankind, google it and find out more about it">20th of July 1969</a>. At that time the company consisted of a small teamodio <br />
+          <br />
+          Dignissim qui blandit gait nulla facilisi. Quod mazim placerat facer possim assum...<br />
+          <br />
+          <a href="elements.html">Read more about</a></p>
+      </div>
+    </div>
+    
+    <!--Contact Info-->
+    <div class="threecol last newsletter">
+      <div class="title">
+        <h5>contact info</h5>
+      </div>
+      <div class="contact-info">
+        <ul>
+          <li class="globe">Mixer Design Studio</li>
+          <li class="phone">+(381) (0) 234.342.1</li>
+          <li class="mail"><a href="mailto:pebasdesign@gmail.com">info@mixerstudio.com</a></li>
+          <li class="mark">Kneza Milosa 221, Belgrade, Serbia</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+<!--Footer Bottom-->
+<div class="container footer-bottom">
+  <div class="row"> 
+    
+    <!--Copyrights-->
+    <div class="threecol copyrights">
+      <p>&copy; Copyrights MIXER theme by pebas</p>
+    </div>
+    
+    <!--Navigation-->
+    <div class="ninecol last footer-nav">
+      <ul>
+        <li><a href="index.hmtl">Home</a></li>
+        <li><a href="about.hmtl">About</a></li>
+        <li><a href="services.hmtl">Services</a></li>
+        <li><a href="blog.hmtl">Blog</a></li>
+        <li><a href="portfolio.hmtl">Portfolio</a></li>
+        <li><a href="contact.hmtl">Contact</a></li>
+        <li></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<!--Scroll To Top--> 
+<a href="#" class="scrollup"></a> 
+
+<!--jQuery Scripts--> 
+<script src="js/jquery.1.7.2.min.js"></script> 
+<script src="js/jquery.scripts.js"></script> 
+<script src="js/main.js"></script> 
+<script src="js/isotope.js"></script>
+
+<!--Add Your Google Analytics Number Instead of UA-XXXXX-X--> 
+<script>
+var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+(function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+s.parentNode.insertBefore(g,s)}(document,'script'));
+</script>
+
+<script>
+$('#container').isotope({
+  // options
+  itemSelector : '.item',
+  layoutMode : 'fitRows'
+});
+</script>
+</body>
+</html>
